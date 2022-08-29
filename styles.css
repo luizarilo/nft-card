@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    width: 300px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.image__card {
+    width: 260px;
+    height: 250px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.view__icon{
+    width: 260px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    margin-bottom: 185px;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    border-radius: 5px;
+}
+
+.view__icon:hover{
+    opacity: 0.5;
+}
+
+.name__coin {
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 240px;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.text__coin {
+    width: 240px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+.text__subtitle {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.box__information {
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.coin__value {
+    width: 130px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.days__left {
+    width: 130px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.text__eth {
+    padding-left: 5px;
+}
+
+.image__coin {
+    width: 7%;
+}
+
+.image__clock {
+    width: 12%;
+    height: 85%;
+}
+
+.text__days {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+    color: hsl(215, 51%, 70%);
+}
+
+.line {
+    width: 250px;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.box__creator{
+    width: 260px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image__creator{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-image: url(images/image-avatar.png);
+    background-size: cover;
+}
+
+.text__creator{
+    padding-left: 10px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px
+}
